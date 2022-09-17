@@ -1,0 +1,16 @@
+#include <iostream>
+
+void getValueFromUser()
+{
+    std::cout << "Ingrese un entero:";
+    int input{};
+    std::cin >> entrada;
+}
+
+int main()
+{
+    getValueFromUser();
+    int num{};
+    std::cout << num << "duplicando es:" << num * 2 << "\ n";
+    return 0;
+}

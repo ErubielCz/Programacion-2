@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main ()
+{
+    int foo ()
+    {
+        std :: cout << "¡foo! \ n";
+        return 0;
+    }
+
+    foo ();
+    return 0;
+}
